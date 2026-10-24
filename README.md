@@ -21,6 +21,10 @@ Three rules that fit on a poster, with the rest underneath for people who want m
 
 Underneath: four tiers with multipliers (Sweet Tooth, Night Owl, Legend, Icon), a four-week visit streak bonus, a birthday Dubai cup, referrals, and vouchers that expire 15 minutes after they are revealed so they get used at the counter.
 
+## Single-file demo
+
+`npm run demo` bundles the same components into `dist/crave-club.html`: one file, no server, opens from a laptop, an email or a published artifact. It uses an in-page router instead of Next's, so `#pitch` and `#owner` open those views directly. The Next.js app remains the product; the single file is for showing it.
+
 ## Routes
 
 | Route | What it is |
